@@ -41,7 +41,7 @@ describe('MonthlyAssessment Routes', () => {
             selfRating: 9,
             stressLevel: 4,
             easeAroundFood: 7,
-            enegryAndMood: 9,
+            energyAndMood: 9,
             positiveBodyTalk: 8,
             selfCompassion: 10,
             didIWorkOnWhatISaidIWould: true,
