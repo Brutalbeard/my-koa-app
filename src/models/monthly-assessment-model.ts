@@ -26,7 +26,7 @@ class MonthlyAssessment extends Model<InferAttributes<MonthlyAssessment>, InferC
     declare stomachMeasurement: number;
     declare ribCageMeasurement: number;
     declare rightThighMeasurement: number;
-    declare letfThighMeasurement: number;
+    declare leftThighMeasurement: number;
     declare rightArmMeasurement: number;
     declare leftArmMeasurement: number;
 
@@ -80,7 +80,7 @@ MonthlyAssessment.init({
     stomachMeasurement: DataTypes.INTEGER,
     ribCageMeasurement: DataTypes.INTEGER,
     rightThighMeasurement: DataTypes.INTEGER,
-    letfThighMeasurement: DataTypes.INTEGER,
+    leftThighMeasurement: DataTypes.INTEGER,
     rightArmMeasurement: DataTypes.INTEGER,
     leftArmMeasurement: DataTypes.INTEGER,
 
