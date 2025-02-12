@@ -33,7 +33,7 @@ describe('MonthlyAssessment Routes', () => {
             stomachMeasurement: 31,
             ribCageMeasurement: 21,
             rightThighMeasurement: 23,
-            letfThighMeasurement: 23,
+            leftThighMeasurement: 23,
             rightArmMeasurement: 13,
             leftArmMeasurement: 13,
             monthlyNotes: 'Test monthly assessment',
