@@ -83,7 +83,7 @@ async function seed() {
     poundsLost: 2 + i,
     hoursOfExcercise: 5 + i,
     daysOnPlan: 6 + i,
-    sleepOnPlan: 7 + i,
+    sleepOnPlan: (i % 2 === 0),
     plansMade: i + 1,
     planedAssessments: i + 1,
     startedFromHungry: 1,

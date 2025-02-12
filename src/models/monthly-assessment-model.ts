@@ -1,8 +1,7 @@
 import {
     DataTypes, Model, InferAttributes, InferCreationAttributes, CreationOptional,
 } from 'sequelize';
-import {sequelize} from '../utils/sequelize';
-
+import { sequelize } from '../utils/sequelize';
 
 class MonthlyAssessment extends Model<InferAttributes<MonthlyAssessment>, InferCreationAttributes<MonthlyAssessment>> {
     declare id: CreationOptional<number>;
@@ -12,7 +11,7 @@ class MonthlyAssessment extends Model<InferAttributes<MonthlyAssessment>, InferC
     declare poundsLost: number;
     declare hoursOfExcercise: number;
     declare daysOnPlan: number;
-    declare sleepOnPlan: number;
+    declare sleepOnPlan: boolean; // Updated type to BOOLEAN
     declare plansMade: number;
     declare planedAssessments: number;
     declare startedFromHungry: number;
@@ -62,7 +61,11 @@ MonthlyAssessment.init({
     poundsLost: DataTypes.INTEGER,
     hoursOfExcercise: DataTypes.INTEGER,
     daysOnPlan: DataTypes.INTEGER,
-    sleepOnPlan: DataTypes.INTEGER,
+    sleepOnPlan: {
+        type: DataTypes.BOOLEAN, // Changed from INTEGER to BOOLEAN
+        allowNull: false,
+        defaultValue: false,
+    },
     plansMade: DataTypes.INTEGER,
     planedAssessments: DataTypes.INTEGER,
     startedFromHungry: DataTypes.BOOLEAN,
