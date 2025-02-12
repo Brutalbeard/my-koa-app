@@ -80,6 +80,7 @@ my-koa-app
 ### Daily Plan Endpoints
 - **POST /daily-plan**: Create a new daily plan.
 - **GET /daily-plan**: Retrieve all daily plans.
+- **GET /daily-plan/:id**: Retrieve a daily plan by ID
 - **PUT /daily-plan/:id**: Update a daily plan by ID.
 - **DELETE /daily-plan/:id**: Delete a daily plan by ID.
 
