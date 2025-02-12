@@ -65,8 +65,8 @@ MonthlyAssessment.init({
     sleepOnPlan: DataTypes.INTEGER,
     plansMade: DataTypes.INTEGER,
     planedAssessments: DataTypes.INTEGER,
-    startedFromHungry: DataTypes.INTEGER,
-    stoppedAtEnough: DataTypes.INTEGER,
+    startedFromHungry: DataTypes.BOOLEAN,
+    stoppedAtEnough: DataTypes.BOOLEAN,
     drank64OuncesOfWater: DataTypes.INTEGER,
 
     startingWeight: DataTypes.INTEGER,
