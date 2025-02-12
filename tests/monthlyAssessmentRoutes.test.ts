@@ -22,7 +22,7 @@ describe('MonthlyAssessment Routes', () => {
             daysOnPlan: 25,
             sleepOnPlan: true, // boolean value
             plansMade: 2,
-            planedAssessments: 2,
+            plannedAssessments: 2,
             startedFromHungry: true,
             stoppedAtEnough: false,
             drank64OuncesOfWater: 64,

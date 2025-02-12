@@ -121,7 +121,6 @@ async function seed() {
     leftWristMeasurement: 6 + i,
     rightAnkleMeasurement: 9 + i,
     leftAnkleMeasurement: 9 + i,
-    leftThighMeasurement: 22 + i,
     sleepQuality: i + 1,
     selfRating: 8 + (i % 3),
     stressLevel: i + 1,
